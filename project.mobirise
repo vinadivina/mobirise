@@ -1,27 +1,30 @@
 {
   "settings": {
-    "name": "Site-09-23_1708",
+    "name": "SLF",
     "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
       "styling": {},
       "additionalSetColors": [
-        "#37383e"
+        "#435968",
+        "#135e91"
       ]
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "4.8.2",
+    "versionFirst": "4.8.3",
     "siteFonts": [],
-    "uniqCompNum": 40,
-    "versionPublish": "4.8.2",
+    "favicon": "@PROJECT_PATH@/assets/images/untitled-128x66.png",
+    "noImageResize": "",
+    "uniqCompNum": 81,
+    "versionPublish": "4.8.3",
     "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Pacific Pools",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -29,151 +32,136 @@
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#135e91"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#135e91"
+            }
+          },
           "_params": {
             "logo": true,
-            "showBrand": true,
-            "showButtons": false,
+            "showBrand": false,
+            "hideButtons": true,
             "sticky": true,
-            "collapsed": true,
             "transparent": true,
-            "color": "#fff",
-            "hamburgerColor": "#000"
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#135e91"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#msg-box4-9\">Piscinas</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page5.html\" target=\"_blank\">Accesorios</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page4.html\" target=\"_blank\">Paisajismo</a></li> ",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"true\">Inicio &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Servicios</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ediscovery.html\" target=\"_blank\">eDiscovery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"consultoria.html\" target=\"_blank\">Asesoría Estratégica</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Clientes</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"EstudiosJuridicos.html\">Estudios Jurídicos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Empresas.html\" target=\"_blank\">Empresas</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contacto.html\" aria-expanded=\"true\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/untitled-1-247x128.png",
+              "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
               "link": "https://mobirise.com",
-              "size": 0
+              "title": ""
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Pacific Pools</a>",
-          "alias": "purity/components",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SEAL &nbsp;LEGAL FORENSICS<br></a>",
           "_tags": [
             "Tema"
           ],
-          "_name": "menu",
-          "_anchor": "menu-0",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#000"
-            }
-          }
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0"
         },
         {
-          "_inherit": "header1",
           "_params": {
             "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": true,
-            "contentAlign": "left",
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": "4",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#fff8e0",
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#ffffff",
-            "overlayOpacity": 0.5
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
           },
-          "title": "Pacific Pools",
-          "text": "Una solución profesional y confiable para tu jardín y piscina en la costa",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">For MAC</a>",
+          "title": "Seal Legal Forensics",
+          "caption": "<font color=\"#435968\"><b>Servicios legales para evitar riesgos regulatorios y reputacionales</b></font>",
           "alias": "purity/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "header4",
-          "_anchor": "header4-1",
+          "_name": "content5",
+          "_anchor": "content5-y",
           "_styles": {
-            "P": {
-              "text-align": "right"
+            ".mbr-section-title": {
+              "font-family": "'Playfair Display', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Playfair+Display:400,700&subset=latin,cyrillic",
+              "color": "#135e91"
             },
-            "H1": {
-              "text-align": "center"
+            "DIV": {
+              "color": "#000000"
+            },
+            "B": {
+              "color": "#435968"
             }
           }
         },
         {
-          "_inherit": "msg-box5",
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
-            "imageSize": "27",
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "showTitle": false,
+            "showCaption": true,
+            "paddingTop": "2",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#fff",
-            "overlayOpacity": 0.5
+            "overlayOpacity": 0.7
           },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Quiénes Somos",
-          "text": "<p>Somos un equipo de profesionales que ofrecemos proyectos de piscinas y jardines para tu casa en la costa.&nbsp;</p>",
+          "title": "Easy to Use!",
+          "caption": "<p>Somos abogados especializados en materias de <b>libre competencia </b>y<b> corrupción</b> que nos apoyamos en la tecnología para brindar servicios más eficientes y con menores costos.</p><p>Nuestro compromiso es apoyar a los <b>estudios jurídicos </b>y a las<b> empresas</b>&nbsp;en el diseño, implementación y control de sus<b>&nbsp;programas de cumplimientos normativos</b> o que requieran adoptar de manera proactiva medidas para <b>fortalecer sus gobiernos corporativos</b>.</p><p><b>En SEAL estamos dedicados a convertir datos en información.</b></p><p><br></p>",
           "alias": "purity/components",
           "_tags": [
             "Tema"
           ],
-          "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-3"
+          "_name": "content5",
+          "_anchor": "content5-14",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          }
         },
         {
-          "_inherit": "msg-box5",
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "imageSize": "33",
-            "paddingTop": "1",
-            "paddingBottom": 0,
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": 3,
+            "columns": "3",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
@@ -184,40 +172,28 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": false,
-            "overlayColor": "#fff",
+            "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-2-1400x1050.jpg",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Qué ofrecemos",
-          "text": "<p>Eficiencia, rapidez y seguridad</p>",
+          "title1": "Tecnología",
+          "caption1": "- Revisión temprana de datos para preparar casos grandes y complejos<br>- Technology Assisted Review (\"TAR\")<br>- Producción de documentos que cumplen estrictos estándares de integridad",
+          "title2": "Experiencia",
+          "caption2": "- Abogados experimentados en mercados regulados y capacitados en herramientas de eDiscovery<br>- Investigaciones corporativas<br><br>",
+          "title3": "Confidencialidad",
+          "caption3": "- Protocolos para recolección, procesamiento y almacenamiento de data<br>- Estrictos estándares de seguridad en el manejo de los datos<br><br>",
+          "title4": "Eficiencia",
+          "caption4": "Menor tiempo<br>IA para certeza",
           "alias": "purity/components",
           "_tags": [
             "Tema"
           ],
-          "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"piscinahormigon.html\" data-toolbar=\"-mbrBtnMove\">Piscinas hormigón &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Piscinas contenedores &nbsp; &nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Piscinas fibra de vidrio &nbsp; &nbsp;&nbsp;</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">Insumos para tu piscina</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">Proyectos de paisajismo</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-9"
+          "_name": "content4",
+          "_anchor": "content4-13",
+          "_styles": {
+            "H4": {
+              "color": "#135e91"
+            }
+          }
         },
         {
           "_params": {
@@ -227,225 +203,445 @@
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#8f99af",
+            "bgColor": "#f2f2f2",
             "overlay": true,
-            "overlayColor": "#3C3C3C",
+            "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
-          "text1": "<br><br>\nContacts<br>\nEmail: contacto@pacificpools.cl<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text2": "<ul></ul>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "avalledelejos@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
+          "text": "El Bosque Norte 0211, Las Condes | Santiago | Chile<br>T. +56 2 2402 4926<br>Copyright (c) 2016- 2018 Seal Legal Forensics &nbsp;<a href=\"index.html\" class=\"text-primary\">Terms of Use  | Privacy Policy</a>",
           "alias": "purity/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "contacts3",
-          "_anchor": "contacts3-a",
+          "_name": "footer1",
+          "_anchor": "footer1-5",
           "_styles": {
             "P": {
-              "color": "#ffffff"
+              "color": "#435968"
             }
           }
         }
       ]
     },
-    "piscinahormigon.html": {
+    "equipo.html": {
       "settings": {
-        "title": "Hormigón",
+        "title": "Nosotros",
+        "order": 5,
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Equipo",
+          "caption": "<p>Seal Legal Forensics nació para brindar un servicio expedito en investigaciones en materias de libre competencia y corrupción.</p><p>Nuestra visión&nbsp;</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-g",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#135e91"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#135e91"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#135e91"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#135e91"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"true\">Inicio &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Servicios</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ediscovery.html\" target=\"_blank\">eDiscovery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"consultoria.html\" target=\"_blank\">Asesoría Estratégica</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Clientes</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"EstudiosJuridicos.html\">Estudios Jurídicos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Empresas.html\" target=\"_blank\">Empresas</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contacto.html\" aria-expanded=\"true\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/untitled-1-247x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SEAL &nbsp;LEGAL FORENSICS<br></a>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-b"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "One of the Easiest Website Builders",
+          "text": "_________________________________________________________________________________",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Try for Free</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-k",
+          "_styles": {
+            "P": {
+              "color": "#a8d0ea"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Sander van der Voorde",
+          "caption": "<p>Abogado de la Universidad de Groningen, Holanda. Reconocido experto en materias de libre competencia con experiencia profesional en Europa, Estados Unidos y Chile. Su experiencia en materias de fusiones y adquisiciones como en investigaciones en materia de libre competencia lo han convertido en un experto en programas de cumplimiento normativo, análisis jurídico de diversas industrias y jurisdicciones. Antes trabajó en Loeff, Claeys, Verbeke (Brussels, Amsterdam), Allen &amp; Overy (Amsterdam, New York, London) y FerradaNehme (Santiago). &nbsp;</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-e",
+          "_styles": {
+            "P": {
+              "color": "#8f99af"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px",
+              "color": "#135e91"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "<a href=\"mailto:svoorde@sealforensics.com\">Contacto</a>",
+          "icons": "       <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> ",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-1a",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#5cb85c",
+              "font-size": "24px",
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box1",
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "One of the Easiest Website Builders",
+          "text": "_________________________________________________________________________________",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Try for Free</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "msg-box2",
+          "_styles": {
+            "P": {
+              "color": "#a8d0ea"
+            }
+          },
+          "_anchor": "msg-box2-l"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Alejandra Vallejos",
+          "caption": "<p>Abogada de la Universidad de Chile. Máster en Derecho Internacional, Universidades de Heidelberg/Chile y Máster en Administración Pública, Universidad de Harvard. Ash Center for Innovation Fellow. &nbsp;Experta en libre competencia y corrupción con enfoque en el uso de las tecnologías para la adopción de buenas prácticas en gobiernos corporativos. Antes trabajó en la Fiscalía Nacional Económica, FerradaNehme y en los Ministerios de Hacienda y Economía.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-f",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px",
+              "color": "#135e91",
+              "text-align": "left"
+            },
+            "P": {
+              "color": "#8f99af"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "<a href=\"mailto:avallejos@sealforensics.com\">Contacto</a>",
+          "icons": "       <a data-app-btn=\"true\" class=\"btn btn-social socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> ",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#5cb85c",
+              "font-size": "24px",
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+            }
+          },
+          "_anchor": "social-buttons2-1b"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "One of the Easiest Website Builders",
+          "text": "_________________________________________________________________________________",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Try for Free</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "msg-box2",
+          "_styles": {
+            "P": {
+              "color": "#a8d0ea"
+            }
+          },
+          "_anchor": "msg-box2-28"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f2f2f2",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "El Bosque Norte 0211, Las Condes | Santiago | Chile<br>T. +56 2 2402 4926<br>Copyright (c) 2016- 2018 Seal Legal Forensics &nbsp;<a href=\"index.html\" class=\"text-primary\">Terms of Use  | Privacy Policy</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-c",
+          "_styles": {
+            "P": {
+              "color": "#435968"
+            }
+          }
+        }
+      ]
+    },
+    "ediscovery.html": {
+      "settings": {
+        "title": "EDiscovery",
         "order": 1
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#135e91"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#135e91"
+            }
+          },
           "_params": {
             "logo": true,
-            "showBrand": true,
-            "showButtons": false,
+            "showBrand": false,
+            "hideButtons": true,
             "sticky": true,
-            "collapsed": true,
             "transparent": true,
-            "color": "#fff",
-            "hamburgerColor": "#000"
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#135e91"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#msg-box4-9\">Piscinas</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page5.html\" target=\"_blank\">Accesorios</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page4.html\" target=\"_blank\">Paisajismo</a></li> ",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"true\">Inicio &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Servicios</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ediscovery.html\" target=\"_blank\">eDiscovery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"consultoria.html\" target=\"_blank\">Asesoría Estratégica</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Clientes</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"EstudiosJuridicos.html\">Estudios Jurídicos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Empresas.html\" target=\"_blank\">Empresas</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contacto.html\" aria-expanded=\"true\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/untitled-1-247x128.png",
+              "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
               "link": "https://mobirise.com",
-              "size": 0
+              "title": ""
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Pacific Pools</a>",
-          "alias": "purity/components",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SEAL &nbsp;LEGAL FORENSICS<br></a>",
           "_tags": [
             "Tema"
           ],
-          "_name": "menu",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#000"
-            }
-          },
-          "_anchor": "menu-b"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.7
-          },
-          "title": "Piscinas de Hormigón",
-          "caption": "<p>Si lo que a ti te interesa es tener una piscina que debe durar muchísimos años , entonces tu opción es una piscina de hormigón de Pacific Pools. Nosotros fabricamos e instalamos piscinas de hormigón en la costa acorde a tus pedidos. Todos nuestros proyectos en hormigón cuentan con calculo estructural realizado por un ingeniero calculista, utilizamos concreto de resistencia H25 (250kgrs/cm2) y acero A63-42H. Las piscinas de hormigón tienen la ventaja de adaptación al terreno en forma y tamaño.</p><p> Podemos construir tu piscina en tu jardín existente o que forme parte de un proyecto de paisajismo hecho por terceros o nuestras propias expertas.&nbsp;</p>",
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-h"
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "showName": true,
-            "showBio": true,
-            "count": "2",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "header": "What Our Fantastic Users Say",
-          "items": [
-            {
-              "authorName": "STANDARD",
-              "authorBio": "Quiero saber más...",
-              "text": "• Disponibles en cualquier medida y diseño\n<div>• Cualquier color interior(pintura)\n</div><div>• Filtro de arena\n</div><div>• Bomba \n</div><div>• Skimmer\n</div><div>• Foco LED\n</div><div>• Baldosas atérmicas perimetrales\n</div><div><i><br></i></div>"
-            },
-            {
-              "authorName": "EXTRAS<br>",
-              "authorBio": "Quiero saber más...",
-              "text": "• Calefacción*\n<div>• Mosaicos en todo o parte del interior\n</div><div>• Deck de madera o WPC\n</div><div>• Baranda de vidrio o aluminio\n</div><div>• Cubierta térmica o de seguridad\n</div><div>• Iluminación LED \n</div><div>• Clorador\n</div><div>• Ionizador\n</div><div>• Desborde finlandés o borde infinito\n</div><div>• Escala muro en acero inoxidable\n</div><div>• Servicios de mantención \n</div><div>\n</div><div><br></div><div>*Tempera tu piscina entre 28 – 30 grados, usando tecnología de última generación, la que permite entregar una solución confiable, amigable con el medio ambiente y de bajo costo.\n</div>"
-            },
-            {
-              "authorName": "JHOLLMAN C.",
-              "authorBio": "User",
-              "text": "<em>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</em>"
-            }
-          ],
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "testimonials1",
-          "_anchor": "testimonials1-g",
-          "testimonial": [
-            {
-              "authorName": "<a href=\"mailto:contacto@pacificpools.cl\">STANDARD</a>",
-              "authorBio": "<a href=\"mailto:contacto@pacificpools.cl\">Quiero saber más...</a>",
-              "text": "• Disponibles en cualquier medida y diseño\n<div>• Cualquier color interior(pintura)\n</div><div>• Filtro de arena\n</div><div>• Bomba \n</div><div>• Skimmer\n</div><div>• Foco LED\n</div><div>• Baldosas atérmicas perimetrales\n</div><div><i><br></i></div>"
-            },
-            {
-              "authorName": "<a href=\"mailto:contacto@pacificpools.cl\">EXTRAS</a><br>",
-              "authorBio": "<a href=\"mailto:contacto@pacificpools.cl\">Quiero saber más...</a>",
-              "text": "• Calefacción*\n<div>• Mosaicos en todo o parte del interior\n</div><div>• Deck de madera o WPC\n</div><div>• Baranda de vidrio o aluminio\n</div><div>• Cubierta térmica o de seguridad\n</div><div>• Iluminación LED \n</div><div>• Clorador\n</div><div>• Ionizador\n</div><div>• Desborde finlandés o borde infinito\n</div><div>• Escala muro en acero inoxidable\n</div><div>• Servicios de mantención \n</div><div>\n</div><div><br></div><div>*Tempera tu piscina entre 28 – 30 grados, usando tecnología de última generación, la que permite entregar una solución confiable, amigable con el medio ambiente y de bajo costo.\n</div>"
-            }
-          ]
-        },
-        {
-          "_params": {
-            "showBullets": true,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgColor": "#efefef",
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-8.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-8-small.jpg",
-                "alt": "",
-                "title": "",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-11.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-11-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-12-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-13.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-13-small.jpg",
-                "alt": "",
-                "title": ""
-              }
-            ]
-          },
-          "articleLayout": false,
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-j"
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-o"
         },
         {
           "_params": {
@@ -455,108 +651,274 @@
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#8f99af",
+            "bgColor": "#f2f2f2",
             "overlay": true,
-            "overlayColor": "#3C3C3C",
+            "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
-          "text1": "<br><br>\nContacts<br>\nEmail: contacto@pacificpools.cl<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text2": "<ul></ul>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "avalledelejos@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
+          "text": "El Bosque Norte 0211, Las Condes | Santiago | Chile<br>T. +56 2 2402 4926<br>Copyright (c) 2016- 2018 Seal Legal Forensics &nbsp;<a href=\"index.html\" class=\"text-primary\">Terms of Use  | Privacy Policy</a>",
           "alias": "purity/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "contacts3",
-          "_anchor": "contacts3-c",
+          "_name": "footer1",
+          "_anchor": "footer1-p",
           "_styles": {
             "P": {
-              "color": "#ffffff"
+              "color": "#435968"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": false,
+            "paddingTop": 3,
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1920x1216.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "eDiscovery",
+          "caption": "<p>Nuestros servicios de eDiscovery</p><p><br></p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-q",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#135e91"
+            }
+          }
+        },
+        {
+          "text": "<p>Nuestros servicios de eDiscovery cubren desde el momento en que se solicita la transferencia de datos hasta su revisión. Nosotros nos encargamos de su seguridad, procesamiento, indexación y análisis en casos de investigaciones corporativas, solicitudes de información por parte de la autoridad, programas de cumplimiento normativo o adopción de buenas prácticas.</p><p>Nuestra capacitación en herramientas tecnológicas sumadas a nuestra experiencia como abogados, nos permite entregar servicios más expeditos y reducir de manera significativa los costos de nuestros clientes.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1r",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": 3,
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Ingesta, Indexación y Almacenamiento",
+          "caption1": "En Seal sólo abogados realizan toda la administración de los datos a partir de su extracción. Esto nos permite ordenarlos y entenderlos desde un punto de vista jurídico y de acuerdo a los más altos estándares de seguridad.<br><br>Utilizamos un software seguro y rápido que nos permite extraer cantidades masivas de datos en cortos períodos de tiempo.<br><br>Eliminamos de manera inmediata todos aquellos datos que no son relevantes para el caso.",
+          "title2": "TAR",
+          "caption2": "Technology Assisted Review (\"TAR\") es la utilización de herramientas que entrega la Inteligencia Artifical para lograr una revisión más efectiva y expedita de los documentos.<br><br>TAR permite abarcar grandes cantidades de datos de manera estratégica y precisa mediante el uso de \"predictive coding\", esto es, tecnología computacional que aprende de las decisiones humanas para continuar haciéndolo de manera autónoma en menores tiempos y con el mismo grado de eficacia.",
+          "title3": "Web Fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Websites",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-18",
+          "_styles": {
+            "H4": {
+              "color": "#135e91"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": 3,
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Análisis por Expertos",
+          "caption1": "El cumplimiento normativo implica analizar normas y conductas. <br><br>En SEAL somos abogados expertos en investigaciones y utilizamos herramientas de análisis de comunicación, sociales y conceptuales para lograr resultados más precisos.<br><br>",
+          "title2": "Protocolos de Seguridad",
+          "caption2": "La protección de los datos y de la información que manejamos es lo más importante para nosotros. Contamos con estrictos estándares de seguridad y privacidad de los datos.<br><br>Desarrollamos políticas y procedimientos para mantener la confidencialidad de nuestros casos.",
+          "title3": "Ciberseguridad",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Riesgos",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-10",
+          "_styles": {
+            "H4": {
+              "color": "#135e91"
             }
           }
         }
       ]
     },
-    "page2.html": {
+    "consultoria.html": {
       "settings": {
-        "title": "Fibra de Vidrio",
+        "title": "Consultorias",
         "order": 2
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#135e91"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#135e91"
+            }
+          },
           "_params": {
             "logo": true,
-            "showBrand": true,
-            "showButtons": false,
+            "showBrand": false,
+            "hideButtons": true,
             "sticky": true,
-            "collapsed": true,
             "transparent": true,
-            "color": "#fff",
-            "hamburgerColor": "#000"
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#135e91"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#msg-box4-9\">Piscinas</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page5.html\" target=\"_blank\">Accesorios</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page4.html\" target=\"_blank\">Paisajismo</a></li> ",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"true\">Inicio &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Servicios</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ediscovery.html\" target=\"_blank\">eDiscovery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"consultoria.html\" target=\"_blank\">Asesoría Estratégica</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Clientes</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"EstudiosJuridicos.html\">Estudios Jurídicos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Empresas.html\" target=\"_blank\">Empresas</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contacto.html\" aria-expanded=\"true\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/untitled-1-247x128.png",
+              "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
               "link": "https://mobirise.com",
-              "size": 0
+              "title": ""
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Pacific Pools</a>",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SEAL &nbsp;LEGAL FORENSICS<br></a>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-s"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f2f2f2",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "El Bosque Norte 0211, Las Condes | Santiago | Chile<br>T. +56 2 2402 4926<br>Copyright (c) 2016- 2018 Seal Legal Forensics &nbsp;<a href=\"index.html\" class=\"text-primary\">Terms of Use  | Privacy Policy</a>",
           "alias": "purity/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "menu",
+          "_name": "footer1",
+          "_anchor": "footer1-t",
           "_styles": {
-            ".navbar-toggler": {
-              "color": "#000"
+            "P": {
+              "color": "#435968"
             }
-          },
-          "_anchor": "menu-k"
+          }
         },
         {
           "_params": {
             "showTitle": true,
-            "showCaption": true,
+            "showCaption": false,
             "paddingTop": 3,
-            "paddingBottom": "0",
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1357.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Consultoría Estratégica",
+          "caption": "<p>Entregamos políticas generales antes de que surja una necesidad</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-u",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#135e91"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showCaption": true,
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
@@ -567,456 +929,126 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#fff",
+            "overlayColor": "#ffffff",
             "overlayOpacity": 0.7
           },
-          "title": "Piscinas de Fibra de Vidrio",
-          "caption": "<p>Una piscina de fibra de vidrio es una buena alternativa, porque se caracteriza por su instalación rápida, precio económico y de fácil mantención. Pacific Pools usa productores externos especializados en la construcción piscinas de fibra de vidrio, los cuales deben cumplir nuestros estándares de calidad(materia prima, espesor, metodología constructiva). Nosotros nos encargamos del diseño, la instalación los sistemas de filtrado y eléctricos y la instalación final de la piscina en tu terreno. Lo hacemos en forma independiente o si forma parte del proyecto de paisajismo hecho por terceros o nuestro equipo de expertas.</p>",
+          "title": "Easy to Use!",
+          "caption": "<p>Ofrecemos asesoría en fusiones y adquisiciones y gobiernos corporativos.</p><p><span style=\"font-size: 1.25rem;\">Contamos con experiencia nacional e internacional en materia de libre competencia. Nuestro sello distintivo es el uso de la tecnología para brindar un servicio expedito y preciso.&nbsp;</span><br></p>",
           "alias": "purity/components",
           "_tags": [
             "Tema"
           ],
           "_name": "content5",
-          "_anchor": "content5-l"
+          "_anchor": "content5-26"
         },
         {
           "_params": {
-            "showTitle": false,
-            "showName": true,
-            "showBio": true,
-            "count": "2",
-            "paddingTop": 3,
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": "0",
             "paddingBottom": 3,
+            "columns": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "header": "What Our Fantastic Users Say",
-          "items": [
-            {
-              "authorName": "STANDARD",
-              "authorBio": "Quiero saber más...",
-              "text": "• Disponibles en cualquier medida y diseño\n<div>• Diferentes colores</div><div>• Filtro de arena\n</div><div>• Bomba \n</div><div>• Skimmer\n</div><div>• Foco LED</div><div><i><br></i></div>"
-            },
-            {
-              "authorName": "EXTRAS<br>",
-              "authorBio": "Quiero saber más...",
-              "text": "• Calefacción*\r<div>• Deck de madera o WPC\r</div><div>• Baranda de vidrio o aluminio\r</div><div>• Escala de acero inoxidable\r</div><div>• Cubiertas térmica o de seguridad\r</div><div>• Iluminación LED adicional\r</div><div>• Ionizador\r</div><div>• Clorador\r</div><div>• Servicios de mantención \r</div><div>\r</div><div>* Tempera tu piscina entre 28 – 30 grados, usando tecnología eléctrica de última generación, la que permite entregar una solución confiable, amigable con el medio ambiente y de bajo costo. \r</div><div>\r</div><div>Adicionalmente, podemos cotizar calefacción con paneles solares los cuales logran un incremento de temperatura de 4 a 6 grados.  \r</div><div><br></div>"
-            },
-            {
-              "authorName": "JHOLLMAN C.",
-              "authorBio": "User",
-              "text": "<em>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</em>"
-            }
-          ],
+          "title1": "Fusiones y Adquisiciones",
+          "caption1": "<br>Ofrecemos una amplia gama de servicios desde las negociaciones pre transaccionales hasta después de finalizada la operación.<br><br>Entregamos asesoría en procedimientos de debida diligencia, notificación de operaciones antes las autoridades, y en general, revisión de contratos y transacciones con el objeto que se adecuen a la normativa que protege la libre competencia.<br>",
+          "title2": "Integridad Corporativa",
+          "caption2": "<br>Apoyamos &nbsp;a la administración corporativa para cumplir con estándares de cumplimiento normativo tanto nacionales como internacionales especialmente en materias de libre competencia y corrupción.<br><br>Nuestro método permite resolver potenciales conflictos antes de que surjan, entregar diagnósticos precisos y rápidos.<br><br>",
+          "title3": "Gobiernos Corporativos",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Websites",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
           "alias": "purity/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "testimonials1",
-          "testimonial": [
-            {
-              "authorName": "STANDARD",
-              "authorBio": "<a href=\"mailto:contacto@pacificpools.cl\">Quiero saber más...</a>",
-              "text": "• Disponibles en cualquier medida y diseño\n<div>• Diferentes colores</div><div>• Filtro de arena\n</div><div>• Bomba \n</div><div>• Skimmer\n</div><div>• Foco LED</div><div><i><br></i></div>"
-            },
-            {
-              "authorName": "EXTRAS<br>",
-              "authorBio": "<a href=\"mailto:contacto@pacificpools.cl\">Quiero saber más...</a>",
-              "text": "• Calefacción*\r<div>• Deck de madera o WPC\r</div><div>• Baranda de vidrio o aluminio\r</div><div>• Escala de acero inoxidable\r</div><div>• Cubiertas térmica o de seguridad\r</div><div>• Iluminación LED adicional\r</div><div>• Ionizador\r</div><div>• Clorador\r</div><div>• Servicios de mantención \r</div><div>\r</div><div>* Tempera tu piscina entre 28 – 30 grados, usando tecnología eléctrica de última generación, la que permite entregar una solución confiable, amigable con el medio ambiente y de bajo costo. \r</div><div>\r</div><div>Adicionalmente, podemos cotizar calefacción con paneles solares los cuales logran un incremento de temperatura de 4 a 6 grados.  \r</div><div><br></div>"
-            }
-          ],
-          "_anchor": "testimonials1-m"
-        },
-        {
-          "_params": {
-            "showBullets": true,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgColor": "#efefef",
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-8.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-8-small.jpg",
-                "alt": "",
-                "title": "",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-11.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-11-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-12-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-13.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-13-small.jpg",
-                "alt": "",
-                "title": ""
-              }
-            ]
-          },
-          "articleLayout": false,
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-n"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#8f99af",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
-          "text1": "<br><br>\nContacts<br>\nEmail: contacto@pacificpools.cl<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text2": "<ul></ul>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "avalledelejos@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "contacts3",
-          "_anchor": "contacts3-o",
+          "_name": "content4",
+          "_anchor": "content4-17",
           "_styles": {
-            "P": {
-              "color": "#ffffff"
+            "H4": {
+              "color": "#135e91"
             }
           }
         }
       ]
     },
-    "page3.html": {
+    "EstudiosJuridicos.html": {
       "settings": {
-        "title": "Contenedores",
+        "title": "Estudios Juridicos",
         "order": 3
       },
       "components": [
         {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#135e91"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#135e91"
+            }
+          },
           "_params": {
             "logo": true,
-            "showBrand": true,
-            "showButtons": false,
+            "showBrand": false,
+            "hideButtons": true,
             "sticky": true,
-            "collapsed": true,
             "transparent": true,
-            "color": "#fff",
-            "hamburgerColor": "#000"
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#135e91"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#msg-box4-9\">Piscinas</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page5.html\" target=\"_blank\">Accesorios</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page4.html\" target=\"_blank\">Paisajismo</a></li> ",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"true\">Inicio &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Servicios</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ediscovery.html\" target=\"_blank\">eDiscovery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"consultoria.html\" target=\"_blank\">Asesoría Estratégica</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Clientes</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"EstudiosJuridicos.html\">Estudios Jurídicos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Empresas.html\" target=\"_blank\">Empresas</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contacto.html\" aria-expanded=\"true\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/untitled-1-247x128.png",
+              "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
               "link": "https://mobirise.com",
-              "size": 0
+              "title": ""
             }
           },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Pacific Pools</a>",
-          "alias": "purity/components",
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SEAL &nbsp;LEGAL FORENSICS<br></a>",
           "_tags": [
             "Tema"
           ],
-          "_name": "menu",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#000"
-            }
-          },
-          "_anchor": "menu-p"
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1g"
         },
         {
           "_params": {
             "showTitle": true,
             "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.7
-          },
-          "title": "Piscinas de Contenedores",
-          "caption": "<p>Los contenedores han sido utilizados por décadas como piscinas, especialmente en Australia y Canadá y Pacific Pools las está ofreciendo ahora en Chile. Las piscinas de contenedores son soluciones seguras, rápidas, fáciles de instalar y de bajo costo, dando la posibilidad de tener una piscina única y trasladable. El producto es designado como sobre terreno y parcialmente enterrado, para integrar en tu casa, terraza o jardín.&nbsp;</p>",
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-q"
-        },
-        {
-          "_params": {
-            "showTitle": false,
-            "showName": true,
-            "showBio": true,
-            "count": "2",
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1920x1275.jpg",
             "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "header": "What Our Fantastic Users Say",
-          "items": [
-            {
-              "authorName": "STANDARD",
-              "authorBio": "Quiero saber más...",
-              "text": "<div>• Disponibles en 2 medidas estándar: 6 x 2,4 M o 12m x 2,4m.  Profundidad flexible y a la medida.\n</div><div>• Cualquier color interior y exterior\n</div><div>• Filtro de arena\n</div><div>• Bomba centrifuga\n</div><div>• Skimmer \n</div><div>• Foco LED\n</div><div><i><br></i></div>"
-            },
-            {
-              "authorName": "EXTRAS<br>",
-              "authorBio": "Quiero saber más...",
-              "text": "<div>• Ventanas*\n</div><div>• Calefacción**\n</div><div>• Deck de madera o WPC\n</div><div>• Baranda de vidrio o aluminio\n</div><div>• Cubierta térmica o de seguridad\n</div><div>• Iluminación LED adicional\n</div><div>• Ionizador\n</div><div>• Escala de acero inoxidable\n</div><div>• Servicios de mantención \n</div><div>\n</div><div>\n</div><div>* Paneles de acrílico (Utilizados en acuarios, para tener una vista clara en tu piscina, manteniendo la integridad estructural). \n</div><div>**Tempera tu piscina entre 28 – 30 grados, usando tecnología eléctrica de última generación, la que permite entregar una solución confiable, amigable con el medio ambiente y de bajo costo. Adicionalmente, podemos cotizar calefacción con paneles solares con lo cual logras aumentar la temperatura entre 4 a 6 grados. &nbsp;\n</div>"
-            },
-            {
-              "authorName": "JHOLLMAN C.",
-              "authorBio": "User",
-              "text": "<em>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</em>"
-            }
-          ],
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "testimonials1",
-          "testimonial": [
-            {
-              "authorName": "STANDARD",
-              "authorBio": "<a href=\"mailto:contacto@pacificpools.cl\">Quiero saber más...</a>",
-              "text": "<div>• Disponibles en 2 medidas estándar: 6 x 2,4 M o 12m x 2,4m.  Profundidad flexible y a la medida.\n</div><div>• Cualquier color interior y exterior\n</div><div>• Filtro de arena\n</div><div>• Bomba centrifuga\n</div><div>• Skimmer \n</div><div>• Foco LED\n</div><div><i><br></i></div>"
-            },
-            {
-              "authorName": "EXTRAS<br>",
-              "authorBio": "<a href=\"mailto:contacto@pacificpools.cl\">Quiero saber más...</a>",
-              "text": "<div>• Ventanas*\n</div><div>• Calefacción**\n</div><div>• Deck de madera o WPC\n</div><div>• Baranda de vidrio o aluminio\n</div><div>• Cubierta térmica o de seguridad\n</div><div>• Iluminación LED adicional\n</div><div>• Ionizador\n</div><div>• Escala de acero inoxidable\n</div><div>• Servicios de mantención \n</div><div>\n</div><div>\n</div><div>* Paneles de acrílico (Utilizados en acuarios, para tener una vista clara en tu piscina, manteniendo la integridad estructural). \n</div><div>**Tempera tu piscina entre 28 – 30 grados, usando tecnología eléctrica de última generación, la que permite entregar una solución confiable, amigable con el medio ambiente y de bajo costo. Adicionalmente, podemos cotizar calefacción con paneles solares con lo cual logras aumentar la temperatura entre 4 a 6 grados. &nbsp;\n</div>"
-            }
-          ],
-          "_anchor": "testimonials1-r"
-        },
-        {
-          "_params": {
-            "showBullets": true,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgColor": "#efefef",
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-8.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-8-small.jpg",
-                "alt": "",
-                "title": "",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-11.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-11-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-12-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-13.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-13-small.jpg",
-                "alt": "",
-                "title": ""
-              }
-            ]
-          },
-          "articleLayout": false,
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-s"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#8f99af",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
-          "text1": "<br><br>\nContacts<br>\nEmail: contacto@pacificpools.cl<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text2": "<ul></ul>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "avalledelejos@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "contacts3",
-          "_anchor": "contacts3-t",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
-        }
-      ]
-    },
-    "page4.html": {
-      "settings": {
-        "title": "Paisajismo",
-        "order": 4
-      },
-      "components": [
-        {
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
-            "color": "#fff",
-            "hamburgerColor": "#000"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#msg-box4-9\">Piscinas</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page5.html\" target=\"_blank\">Accesorios</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page4.html\" target=\"_blank\">Paisajismo</a></li> ",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Pacific Pools</a>",
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "menu",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#000"
-            }
-          },
-          "_anchor": "menu-u"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
@@ -1026,188 +1058,19 @@
             "overlayColor": "#fff",
             "overlayOpacity": 0.7
           },
-          "title": "Proyectos de Paisajismo",
-          "caption": "<p>El entorno de tu casa es un elemento importante para disfrutar la vida a la playa en el máximo. Sin embargo, la ubicación cerca al mar, el tamaño del terreno y la disponibilidad de agua requieren generalmente soluciones especiales. Pacific Pools ofrece un proyecto integral, desde el diseño hasta la instalación. \n</p><p>\n</p><p>Trabajamos con paisajistas expertas que buscan el mejor balance entre las preferencias de nuestros/as clientes y los desafíos de la zona costera.\n</p><p>\n</p><p>Los servicios incluyen: diseño, compra y colocación de plantas, cortezas y piedras; diseño e instalación de sistema de regadío, iluminación y  servicios de mantención.\n</p><p><br></p>",
+          "title": "Estudios Jurídicos",
+          "caption": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
           "alias": "purity/components",
           "_tags": [
             "Tema"
           ],
           "_name": "content5",
-          "_anchor": "content5-v"
-        },
-        {
-          "_params": {
-            "showBullets": true,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgColor": "#efefef",
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-8.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-8-small.jpg",
-                "alt": "",
-                "title": "",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-11.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-11-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-12-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-13.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-13-small.jpg",
-                "alt": "",
-                "title": ""
-              }
-            ]
-          },
-          "articleLayout": false,
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-x"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#8f99af",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
-          "text1": "<br><br>\nContacts<br>\nEmail: contacto@pacificpools.cl<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text2": "<ul></ul>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "avalledelejos@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "contacts3",
-          "_anchor": "contacts3-y",
+          "_anchor": "content5-1h",
           "_styles": {
-            "P": {
-              "color": "#ffffff"
+            ".mbr-section-title": {
+              "color": "#135e91"
             }
           }
-        }
-      ]
-    },
-    "page5.html": {
-      "settings": {
-        "title": "Accesorios",
-        "order": 5
-      },
-      "components": [
-        {
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
-            "color": "#fff",
-            "hamburgerColor": "#000"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#msg-box4-9\">Piscinas</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page5.html\" target=\"_blank\">Accesorios</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page4.html\" target=\"_blank\">Paisajismo</a></li> ",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Pacific Pools</a>",
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "menu",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#000"
-            }
-          },
-          "_anchor": "menu-z"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.7
-          },
-          "title": "Accesorios",
-          "caption": "<p>Disponemos de un variado stock de productos para tu piscina para que tu experiencia sea más divertida y única. Revisa en nuestra galería cuáles son los productos que necesitas.</p>",
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-10"
         },
         {
           "_params": {
@@ -1215,7 +1078,7 @@
             "showCaptions": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "columns": 4,
+            "columns": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
@@ -1229,62 +1092,20 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title1": "<a href=\"mailto:contacto@pacificpools.cl\">Cobertores de piscinas</a>",
-          "caption1": "Para la seguridad tuya y de tu familia y para proteger de las inclemencias del clima. Disponemos de todas las medidas y estilos para proteger de manera adecuada tu piscina.",
-          "title2": "<a href=\"mailto:contacto@pacificpools.cl\">Químicos</a>",
-          "caption2": "<br>Los químicos permiten mantener el agua de tu piscina limpia y segura durante todo el año. Disponemos de alguicidas, cloro, clarificadores de agua, y medidores entre otros.",
-          "title3": "<a href=\"mailto:contacto@pacificpools.cl\">Equipamiento de limpieza</a><br><br>",
-          "caption3": "El equipamiento es una parte fundamental para que tu piscina funcione de manera adecuada. En Pacific Pools contamos con las mejores marcas y opciones.",
-          "title4": "<a href=\"mailto:contacto@pacificpools.cl\">Repuestos</a>",
-          "caption4": "<br>Contamos con repuestos para tu filtro, sistema de limpieza, iluminación, motores, escaleras,&nbsp;",
+          "title1": "Apoyo eDiscovery",
+          "caption1": "Prestamos apoyo de servicios de eDiscovery para la implementación y revisión de planes de compliance, investigaciones internas, revisión de documentos y detección de ilícitos.<br><br>Nuestra expertise es en libre competencia y corrupción.",
+          "title2": "Asesoría Estratégica",
+          "caption2": "Prestamos apoyo a los equipos en materias de libre competencia y mercados regulados especialmente en materias de notificaciones de fusiones y adquisiciones o en investigaciones corporativas que requieran análisis de grandes cantidades de información.<br>",
+          "title3": "Web Fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Websites",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
           "alias": "purity/components",
           "_tags": [
             "Tema"
           ],
           "_name": "content4",
-          "_anchor": "content4-13"
-        },
-        {
-          "_params": {
-            "showBullets": true,
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgColor": "#efefef",
-            "images": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-8.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-8-small.jpg",
-                "alt": "",
-                "title": "",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-11.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-11-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-12-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-13.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-13-small.jpg",
-                "alt": "",
-                "title": ""
-              }
-            ]
-          },
-          "articleLayout": false,
-          "alias": "purity/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-11"
+          "_anchor": "content4-1i"
         },
         {
           "_params": {
@@ -1294,23 +1115,263 @@
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#8f99af",
+            "bgColor": "#f2f2f2",
             "overlay": true,
-            "overlayColor": "#3C3C3C",
+            "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
-          "text1": "<br><br>\nContacts<br>\nEmail: contacto@pacificpools.cl<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text2": "<ul></ul>",
+          "text": "El Bosque Norte 0211, Las Condes | Santiago | Chile<br>T. +56 2 2402 4926<br>Copyright (c) 2016- 2018 Seal Legal Forensics &nbsp;<a href=\"index.html\" class=\"text-primary\">Terms of Use  | Privacy Policy</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#435968"
+            }
+          },
+          "_anchor": "footer1-1k"
+        }
+      ]
+    },
+    "Empresas.html": {
+      "settings": {
+        "title": "Empresas",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#135e91"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#135e91"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#135e91"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"true\">Inicio &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Servicios</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ediscovery.html\" target=\"_blank\">eDiscovery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"consultoria.html\" target=\"_blank\">Asesoría Estratégica</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Clientes</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"EstudiosJuridicos.html\">Estudios Jurídicos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Empresas.html\" target=\"_blank\">Empresas</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contacto.html\" aria-expanded=\"true\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/untitled-1-247x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SEAL &nbsp;LEGAL FORENSICS<br></a>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-15"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": false,
+            "paddingTop": 3,
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1920x1024.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "Empresas",
+          "caption": "<p>Ofrecemos apoyo a las Fiscalías Internas para casos que requieran análisis de datos electrónicos.&nbsp;</p><p>Somos rápidos y contamos con la experiencia legal para detectar en el menor tiempo posible riesgos.</p><p>Entregamos una asesoría estratégica para la adopción de soluciones.</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-1c",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#135e91"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Gobiernos Corporativos",
+          "caption1": "<br>Nos especializamos en la revisión de documentos y prácticas corporativas en materias de conflictos de interés, interlocking, derechos humanos y empresas, y procedimientos internos.<br><br>Diseñamos modelos de gobernanza corporativa para cumplir con la normativa local e internacional.&nbsp;<br><br>Acompañamos al cliente desde el diseño, la adopción del programa y su revisión, hasta su monitoreo regular.<br><br>",
+          "title2": "Cumplimiento normativo",
+          "caption2": "<br>Apoyamos a las Fiscalías internas de las compañías para el desarrollo de programas de cumplimiento normativo, especialmente en la etapa de revisión de documentación electrónica.<br><br>Nuestros servicios parten desde la ingesta de datos hasta su revisión.&nbsp;<br><br>En SEAL somos abogados capacitados en el uso de la tecnología para acompañar a nuestros clientes durante todo el proceso de la revisión de la documentación.<br><br>",
+          "title3": "Ciberseguridad",
+          "caption3": "<br>Participamos de procesos de seguridad de datos en investigaciones internas o adopción de mejores prácticas.<br><br><br>",
+          "title4": "Unlimited Websites",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-1d",
+          "_styles": {
+            "H4": {
+              "color": "#135e91"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f2f2f2",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "El Bosque Norte 0211, Las Condes | Santiago | Chile<br>T. +56 2 2402 4926<br>Copyright (c) 2016- 2018 Seal Legal Forensics &nbsp;<a href=\"index.html\" class=\"text-primary\">Terms of Use  | Privacy Policy</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#435968"
+            }
+          },
+          "_anchor": "footer1-16"
+        }
+      ]
+    },
+    "Contacto.html": {
+      "settings": {
+        "title": "Contacto",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#135e91"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#135e91"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#135e91"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"true\">Inicio &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Servicios</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ediscovery.html\" target=\"_blank\">eDiscovery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"consultoria.html\" target=\"_blank\">Asesoría Estratégica</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Clientes</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"EstudiosJuridicos.html\">Estudios Jurídicos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Empresas.html\" target=\"_blank\">Empresas</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Contacto.html\" aria-expanded=\"true\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/untitled-1-247x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SEAL &nbsp;LEGAL FORENSICS<br></a>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-w"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "Contacto",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
           "form": {
-            "title": "MESSAGE",
-            "action": "avalledelejos@gmail.com",
+            "action": "avallejos@sealforensics.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Gracias por contactarnos. Responderemos a la brevedad."
             },
             "fields": {
               "name": {
-                "visible": false,
+                "visible": true,
                 "title": "Name",
                 "customTitle": "Name*"
               },
@@ -1320,7 +1381,7 @@
                 "customTitle": "Email*"
               },
               "phone": {
-                "visible": false,
+                "visible": true,
                 "title": "Phone",
                 "customTitle": "Phone"
               },
@@ -1334,11 +1395,37 @@
           "_tags": [
             "Tema"
           ],
-          "_name": "contacts3",
-          "_anchor": "contacts3-12",
+          "_name": "form1",
+          "_anchor": "form1-1l",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#135e91"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f2f2f2",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "El Bosque Norte 0211, Las Condes | Santiago | Chile<br>T. +56 2 2402 4926<br>Copyright (c) 2016- 2018 Seal Legal Forensics &nbsp;<a href=\"index.html\" class=\"text-primary\">Terms of Use  | Privacy Policy</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-x",
           "_styles": {
             "P": {
-              "color": "#ffffff"
+              "color": "#435968"
             }
           }
         }
